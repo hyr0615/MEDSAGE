@@ -1,0 +1,14 @@
+{
+  "upstream_commit": null,
+  "note": "Local interface fingerprints, not an upstream version pin. LF-normalized SHA-256.",
+  "files": {
+    "verl/trainer/main.py": "8316685ee365305688fa7758d18ab4231844cdda4a62b82da0eaf8fbf2bb22c4",
+    "verl/trainer/data_loader.py": "d042a5524ae525d8b68776501a64d1143e2ee437630fa34593fd9e35991b7c66",
+    "verl/workers/config.py": "268c85c392863253d541303958b5cdb352b9996e523d8963b129a4e7c8d53307",
+    "verl/workers/actor/config.py": "d7ae1489bf27b45e8fc861f795ab5976c946d501b976b24c8746c70f9966e59f",
+    "verl/workers/fsdp_workers.py": "4408a4a6c71a54b535216bd9a47b29c9d2785eb5289c0b68b2b5977322f900a5",
+    "verl/workers/reward/config.py": "bb3795c17720a7f7017a73541e2583e4e75a0fa5919c990467ce11617cfb11a3",
+    "verl/protocol.py": "a634340a086a986c03c96ad27c58da3df792ad4ebd09741c9109d689e2cfebd1",
+    "verl/utils/dataset.py": "514c620f705ab00125ba2d8b9dc24d891fe1ea3648242504c068cec922d52005"
+  }
+}

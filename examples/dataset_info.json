@@ -1,0 +1,15 @@
+{
+  "sage_sft": {
+    "file_name": "sft_train.json",
+    "formatting": "sharegpt",
+    "columns": {"messages": "conversations", "images": "images"},
+    "tags": {"role_tag": "from", "content_tag": "value", "user_tag": "human", "assistant_tag": "gpt"}
+  },
+  "sage_dpo": {
+    "file_name": "preferences.json",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {"messages": "conversations", "images": "images", "chosen": "chosen", "rejected": "rejected"},
+    "tags": {"role_tag": "from", "content_tag": "value", "user_tag": "human", "assistant_tag": "gpt"}
+  }
+}

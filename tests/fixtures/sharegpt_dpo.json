@@ -1,0 +1,16 @@
+[
+  {
+    "conversations": [
+      {"from": "human", "value": "<image>What abnormality is shown? Analyze in the order <LOC>, <VIS>, <KNO>, <CON>, using matching closing tags."}
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "<LOC>{\"bbox_xyxy_pixel\":[[10,20,60,80]]}</LOC><VIS>Supported visual description.</VIS><KNO>Source-supported medical relation.</KNO><CON>Source answer.</CON>"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "<LOC>{\"bbox_xyxy_pixel\":[[90,90,100,100]]}</LOC><VIS>Inconsistent description placeholder.</VIS><KNO>Unsupported relation placeholder.</KNO><CON>Different answer.</CON>"
+    },
+    "images": ["images/example.png"]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "observed_on": "2026-10-10",
+  "scope": "Installed RL environment used for the CPU regression checks; not a historical run lockfile or a complete installation specification.",
+  "packages": {
+    "torch": "2.7.1",
+    "transformers": "4.57.0",
+    "tokenizers": "0.22.1",
+    "vllm": "0.10.0",
+    "ray": "2.48.0",
+    "tensordict": "0.10.0",
+    "torchdata": "0.11.0",
+    "datasets": "4.2.0",
+    "accelerate": "1.3.0",
+    "peft": "0.17.1",
+    "omegaconf": "2.4.0.dev1",
+    "numpy": "2.2.6",
+    "pillow": "11.3.0",
+    "pytest": "8.3.4"
+  }
+}

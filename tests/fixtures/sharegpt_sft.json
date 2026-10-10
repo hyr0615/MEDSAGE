@@ -1,0 +1,37 @@
+[
+  {
+    "conversations": [
+      {"from": "human", "value": "<image>Where is the relevant region? Return its bounding box in <LOC>...</LOC>."},
+      {"from": "gpt", "value": "<LOC>{\"bbox_xyxy_pixel\":[[10,20,60,80]]}</LOC>"}
+    ],
+    "images": ["images/example.png"]
+  },
+  {
+    "conversations": [
+      {"from": "human", "value": "<image>What finding is visible in the marked region? Region: [10,20,60,80]. Describe the visual findings in <VIS>...</VIS>."},
+      {"from": "gpt", "value": "<VIS>Supported visual description.</VIS>"}
+    ],
+    "images": ["images/example.png"]
+  },
+  {
+    "conversations": [
+      {"from": "human", "value": "<image>What is the significance of the observed finding? Visual evidence: Supported visual description. Explain the supported relation in <KNO>...</KNO>."},
+      {"from": "gpt", "value": "<KNO>Source-supported medical relation.</KNO>"}
+    ],
+    "images": ["images/example.png"]
+  },
+  {
+    "conversations": [
+      {"from": "human", "value": "<image>What abnormality is shown? Analyze in the order <LOC>, <VIS>, <KNO>, <CON>, using matching closing tags."},
+      {"from": "gpt", "value": "<LOC>{\"bbox_xyxy_pixel\":[[10,20,60,80]]}</LOC><VIS>Supported visual description.</VIS><KNO>Source-supported medical relation.</KNO><CON>Source answer.</CON>"}
+    ],
+    "images": ["images/example.png"]
+  },
+  {
+    "conversations": [
+      {"from": "human", "value": "<image>What abnormality is shown? Answer briefly."},
+      {"from": "gpt", "value": "Source answer."}
+    ],
+    "images": ["images/example.png"]
+  }
+]
